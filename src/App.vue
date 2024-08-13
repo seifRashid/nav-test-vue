@@ -112,7 +112,6 @@ export default {
     },
     AddToCart(){
       this.cartItems.push(this.fruits[this.index].name)
-      console.log(this.cartItems)
     }
   },
   provide() {

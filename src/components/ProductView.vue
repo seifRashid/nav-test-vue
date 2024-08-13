@@ -25,7 +25,7 @@
         </div>
       </div>
       <button class="btn btn-sm btn-info px-3 fs-5" @click="previousFruit">
-        Previous<i class="bi bi-chevron-left"></i>
+        <i class="bi bi-chevron-left"></i>Previous
       </button>
       <button class="btn btn-sm btn-info px-3 mx-3 fs-5" @click="nextFruit">
         Next<i class="bi bi-chevron-right"></i>
@@ -40,7 +40,16 @@
     <div class="col">
       <product-review/>
     </div>
-    <div class="col"></div>
+    <div class="col">
+      <div class="container mt-5">
+        <p class="fs-3">Fruits Reviews</p>
+        <div class="card">
+          <div class="card-body">
+            <div class="fs-5">Review</div>
+          </div>
+        </div>
+      </div>
+    </div>
    </div>
 </template>
 
